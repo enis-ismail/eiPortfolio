@@ -8,7 +8,6 @@
 
 - Home
 - Certificates
-- Experience
 - Projects
 - Contact
 

@@ -341,44 +341,6 @@ const certifications = {
   ],
 };
 
-// Experience Page
-const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I've completed two internships. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
-  header_image_path: "experience.svg",
-  sections: [
-    {
-      title: "Work",
-      experiences: [
-        {
-          title: "IT Developer",
-          company: "Canada Revenue Agency",
-          company_url: "https://www.canada.ca/en/revenue-agency.html",
-          logo_path: "cra.png",
-          duration: "May 2023 - Ongoing",
-          location: "Halifax, Nova Scotia",
-          description:
-            "Canada Revenue Agency (CRA) administers tax laws for the Government of Canada and for most provinces and territories, and administers various social and economic benefit and incentive programs delivered through the tax system.",
-          color: "#f10000",
-        },
-        {
-          title: "Full Stack Developer",
-          company: "Quicko",
-          company_url: "https://quicko.com/",
-          logo_path: "quicko.jpg",
-          duration: "June 2021 - October 2021",
-          location: "Ahmedabad",
-          description:
-            "Quicko is an online tax planning, preparation & filing platform for individuals & businesses.",
-          color: "#2962FF",
-        },
-      ],
-    },
-  ],
-};
-
 // Projects Page
 const projectsHeader = {
   title: "Projects",
@@ -437,7 +399,6 @@ export {
   socialMediaLinks,
   skills,
   certifications,
-  experience,
   projectsHeader,
   contactPageData,
   projects,
