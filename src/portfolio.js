@@ -16,9 +16,7 @@ const greeting = {
   full_name: "Hrishi Patel",
   subTitle:
     "Full Stack Developer, Machine Learning Enthusiast. Always learning.",
-  resumeLink:
-    "https://drive.google.com/file/d/1kcvW8P65jWZFeKR6Jopf3nrQLA1qJCwn/view?usp=sharing",
-  mail: "mailto:hrishipatel99@gmail.com",
+  mail: "mailto:enis89ismail@gmail.com",
 };
 
 const socialMediaLinks = {

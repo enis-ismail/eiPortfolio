@@ -48,11 +48,6 @@ function Contact(props) {
                 {ContactData["description"]}
               </p>
               <SocialMedia />
-              <br />
-              <br />
-              <a {...styles} className="general-btn" href={greeting.resumeLink}>
-                See my Resume
-              </a>
             </div>
           </div>
         </Fade>

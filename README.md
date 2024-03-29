@@ -10,7 +10,7 @@
 - Education and Certificates
 - Experience
 - Projects
-- Contact and Resume
+- Contact
 
 # How To Use
 
