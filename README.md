@@ -7,7 +7,7 @@
 # Sections
 
 - Home
-- Education and Certificates
+- Certificates
 - Experience
 - Projects
 - Contact

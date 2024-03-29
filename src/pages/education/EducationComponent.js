@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
 import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
@@ -20,11 +19,8 @@ function Education(props) {
             </div>
             <div className="heading-text-div">
               <h1 className="heading-text" style={{ color: theme.text }}>
-                Education
+                Certifications
               </h1>
-              <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                Basic Qualification and Certifications
-              </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
@@ -34,7 +30,6 @@ function Education(props) {
             </div>
           </div>
         </Fade>
-        <Educations theme={props.theme} />
         <Certifications theme={props.theme} />
       </div>
       <Footer theme={props.theme} />
