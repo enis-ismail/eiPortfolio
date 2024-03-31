@@ -1,6 +1,6 @@
-# opPortfolio
+# eiPortfolio
 
-![opPortfolio](/images/portfolio.gif)
+![eiPortfolio](/images/portfolio.gif)
 
 ### A clean portfolio template. (Readme will be updated soon)
 
