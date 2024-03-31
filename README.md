@@ -2,7 +2,7 @@
 
 ![eiPortfolio](/images/portfolio.gif)
 
-### A clean portfolio template. (Readme will be updated soon)
+### A clean portfolio template.
 
 # Sections
 
@@ -13,7 +13,7 @@
 
 # How To Use
 
-- Clone this repository (or fork, then clone your fork :) )
+- Clone this repository (or fork, then clone your fork)
 - Run `npm i`
 - Check it out using `npm start`
 
@@ -25,9 +25,9 @@
 
 # How to Deploy
 
-I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
+I have used Cloudflare Pages to host my portfolio. Just run `npm run build` and publish all the files in the `/build` folder to your repository.
 
 # References
 
-Based on https://github.com/ashutosh1919/masterPortfolio/ and https://github.com/saadpasta/developerFolio
+Based on https://github.com/Hrishi1999/opPortfolio/
 Illustrations: https://undraw.co/
