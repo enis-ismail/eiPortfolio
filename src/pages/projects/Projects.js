@@ -59,7 +59,7 @@ function Projects(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        More Projects (Github)
+        Explore More Projects on Github
       </a>
       <br />
       <br />

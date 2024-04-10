@@ -25,7 +25,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/home"
+              path="/welcome"
               render={(props) => (
                 <Home
                   {...props}
@@ -35,7 +35,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/qualifications"
               render={(props) => (
                 <Education
                   {...props}
@@ -45,7 +45,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path="/get-in-touch"
               render={(props) => (
                 <Contact
                   {...props}
@@ -65,7 +65,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/portfolio"
               render={(props) => (
                 <Projects
                   {...props}
@@ -95,7 +95,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/home"
+              path="/welcome"
               render={(props) => (
                 <Home
                   {...props}
@@ -105,7 +105,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path="/qualifications"
               render={(props) => (
                 <Education
                   {...props}
@@ -115,7 +115,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path="/get-in-touch"
               render={(props) => (
                 <Contact
                   {...props}
@@ -125,7 +125,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path="/portfolio"
               render={(props) => (
                 <Projects
                   {...props}

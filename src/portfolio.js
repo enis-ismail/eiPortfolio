@@ -8,13 +8,13 @@ const settings = {
 
 //Home Page
 const greeting = {
-  title: "Hello.",
+  title: "Welcome!",
   title2: "Enis",
-  logo_name: "enis.i()",
+  logo_name: "enis.dev()",
   nickname: "Enis",
   full_name: "Enis Ismail",
   subTitle:
-    "Software Development Тechnical Lead @ AIOPSGROUP, Salesforce B2C Commerce Enthusiast.",
+    "A dedicated Technical Lead at AIOPSGROUP with a keen interest in Salesforce B2C Commerce. I enjoy creating solutions that make a difference.",
   mail: "mailto:enis89ismail@gmail.com",
 };
 
@@ -31,9 +31,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Backend development using SFCC, NodeJS, etc.",
-        "⚡ Building responsive website front end",
-        "⚡ CI/CD",
+        "⚡ Implementing solid backend systems with SFCC and NodeJS, focusing on reliability and maintainability.",
+        "⚡ Crafting user-friendly website frontends that perform well across all devices.",
+        "⚡ Applying CI/CD practices to improve code quality and deployment efficiency.",
       ],
       softwareSkills: [
         {
@@ -90,7 +90,8 @@ const certifications = {
       subtitle: "Salesforce B2C Commerce",
       logo_path: "sf_b2c_arch.png",
       certificate_link: "https://www.salesforce.com/trailblazer/eismail",
-      alt_name: "Salesforce",
+      alt_name:
+        "Official Salesforce B2C Commerce Architect Certification Badge",
       color_code: "#0d9dda",
     },
     {
@@ -98,7 +99,8 @@ const certifications = {
       subtitle: "Salesforce B2C Commerce",
       logo_path: "sf_b2c_dev.png",
       certificate_link: "https://www.salesforce.com/trailblazer/eismail",
-      alt_name: "Salesforce",
+      alt_name:
+        "Official Salesforce B2C Commerce Developer Certification Badge",
       color_code: "#0d9dda",
     },
     {
@@ -106,7 +108,7 @@ const certifications = {
       subtitle: "Node.js",
       logo_path: "nodejs.png",
       certificate_link: "https://www.udemy.com/course/understand-nodejs",
-      alt_name: "Node.js",
+      alt_name: "Completed Node.js Course Badge",
       color_code: "#edf2eb",
     },
   ],
@@ -114,24 +116,24 @@ const certifications = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projects Showcase",
   description:
-    "Below are some of my projects. My best experience is to create Salesforce B2C Commerce Cloud projects. Note that not all of the mentioned projects are public.",
+    "Presented here are a selection of my projects, with a special emphasis on Salesforce B2C Commerce Cloud creations. Please be aware that some of these projects are confidential and not publicly accessible.",
   avatar_image_path: "projects_image.svg",
 };
 
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "enis2.png",
+    title: "Get in Touch",
+    profile_image_path: "enis-ismail.png",
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Feel free to reach out through any of the channels listed below. I'm committed to responding promptly.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Insights & Musings",
     subtitle:
-      "I don't blog frequently but when I do something awesome, I do try my best to write a blog about it.",
+      "While I don't blog regularly, I make it a point to share insightful posts about my most compelling work.",
     link: "https://medium.com/@enis.89.ismail",
     avatar_image_path: "blogs_image.svg",
   },
@@ -142,7 +144,8 @@ const projects = {
     {
       name: "eiPortfolio",
       url: "https://github.com/enis-ismail/eiPortfolio",
-      description: "(This) A clean and full customizable portfolio template.",
+      description:
+        "A sleek, fully customizable portfolio template for your professional needs.",
       languages: [
         {
           name: "ReactJS",
@@ -153,7 +156,8 @@ const projects = {
     {
       name: "sfcc-logs",
       url: "https://github.com/enis-ismail/sfcc-logs",
-      description: "Download, parse and analyze SFCC logs.",
+      description:
+        "A tool designed to download, parse, and analyze SFCC logs for efficient troubleshooting.",
       languages: [
         {
           name: "JavaScript",

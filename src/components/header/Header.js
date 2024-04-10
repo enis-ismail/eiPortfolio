@@ -31,7 +31,7 @@ function Header(props) {
     },
   });
 
-  const link = settings.isSplash ? "/splash" : "home";
+  const link = settings.isSplash ? "/splash" : "welcome";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
 
@@ -81,45 +81,45 @@ function Header(props) {
             <li>
               <NavLink
                 className="homei"
-                to="/home"
+                to="/welcome"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Home
+                Welcome
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="ec"
-                to="/education"
+                to="/qualifications"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Certifications
+                Qualifications
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="projects"
-                to="/projects"
+                to="/portfolio"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Projects
+                Portfolio
               </NavLink>
             </li>
             <li>
               <NavLink
                 className="cr"
-                to="/contact"
+                to="/get-in-touch"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact
+                Get in Touch
               </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>

@@ -41,10 +41,10 @@ export default function Greeting(props) {
                   {...styles}
                   className="button"
                   onClick={() => {
-                    history.push("/contact");
+                    history.push("/get-in-touch");
                   }}
                 >
-                  Contact Me
+                  Reach Out to Me
                 </button>
               </div>
             </div>
