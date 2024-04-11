@@ -10,6 +10,7 @@ export default function socialMedia() {
         className="icon-button linkedin"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Go to my LinkedIn profile"
       >
         <i className="fab fa-linkedin-in"></i>
         <span></span>
@@ -19,6 +20,7 @@ export default function socialMedia() {
         className="icon-button google"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Send me an email"
       >
         <i className="fab fa-google"></i>
         <span></span>
@@ -28,6 +30,7 @@ export default function socialMedia() {
         className="icon-button github"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Go to my GitHub profile"
       >
         <i className="fab fa-github"></i>
         <span></span>

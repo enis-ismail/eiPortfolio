@@ -122,9 +122,15 @@ function Header(props) {
                 Get in Touch
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
-              {icon}
-            </button>
+            <li>
+              <button
+                {...styles}
+                onClick={changeTheme}
+                aria-label="Toggle Between Dark and Light Mode"
+              >
+                {icon}
+              </button>
+            </li>
           </ul>
         </header>
       </div>

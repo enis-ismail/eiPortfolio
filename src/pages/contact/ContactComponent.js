@@ -64,7 +64,12 @@ function Contact(props) {
                 {blogSection["subtitle"]}
               </p>
               <div className="blogsite-btn-div">
-                <a {...styles} className="general-btn" href={blogSection.link}>
+                <a
+                  {...styles}
+                  className="general-btn"
+                  href={blogSection.link}
+                  aria-label="Go to my Medium.com profile"
+                >
                   My Medium Profile
                 </a>
               </div>
