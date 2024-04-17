@@ -10,7 +10,7 @@ const settings = {
 const greeting = {
   title: "Welcome!",
   title2: "Enis",
-  logo_name: "enis.dev()",
+  logo_name: "eismail.dev()",
   nickname: "Enis",
   full_name: "Enis Ismail",
   subTitle:
